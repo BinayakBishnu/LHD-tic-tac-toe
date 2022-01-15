@@ -8,8 +8,12 @@ def load_board():
     for row in number_board:
         print('|'.join(row))
 
+    print('list of moves')
     print(number_board)
+
+    return number_board
 
 
 if __name__ == '__main__':
-    print("board file")
+    print("board")
+    load_board()
